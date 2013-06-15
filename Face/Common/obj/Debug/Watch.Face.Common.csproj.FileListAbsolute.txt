@@ -1,0 +1,17 @@
+C:\Users\stamp\Downloads\BigDigitsWatchface\BigDigitsWatchface\WatchFace.Common\bin\Debug\le\Watch.Face.Common.dll
+C:\Users\stamp\Downloads\BigDigitsWatchface\BigDigitsWatchface\WatchFace.Common\bin\Debug\be\Watch.Face.Common.dll
+C:\Users\stamp\Downloads\BigDigitsWatchface\BigDigitsWatchface\WatchFace.Common\bin\Debug\le\Watch.Face.Common.pdb
+C:\Users\stamp\Downloads\BigDigitsWatchface\BigDigitsWatchface\WatchFace.Common\bin\Debug\be\Watch.Face.Common.pdb
+C:\Users\stamp\Downloads\BigDigitsWatchface\BigDigitsWatchface\WatchFace.Common\bin\Debug\Watch.Face.Common.dll
+C:\Users\stamp\Downloads\BigDigitsWatchface\BigDigitsWatchface\WatchFace.Common\bin\Debug\Watch.Face.Common.pdb
+C:\Users\stamp\Downloads\BigDigitsWatchface\BigDigitsWatchface\WatchFace.Common\bin\Debug\le\Watch.Face.Common.pe
+C:\Users\stamp\Downloads\BigDigitsWatchface\BigDigitsWatchface\WatchFace.Common\bin\Debug\le\Watch.Face.Common.pdbx
+C:\Users\stamp\Downloads\BigDigitsWatchface\BigDigitsWatchface\WatchFace.Common\bin\Debug\be\Watch.Face.Common.pe
+C:\Users\stamp\Downloads\BigDigitsWatchface\BigDigitsWatchface\WatchFace.Common\bin\Debug\be\Watch.Face.Common.pdbx
+C:\Users\stamp\Downloads\BigDigitsWatchface\BigDigitsWatchface\WatchFace.Common\obj\Debug\TinyCLR_DebugReferences.cache
+C:\Users\stamp\Downloads\BigDigitsWatchface\BigDigitsWatchface\WatchFace.Common\obj\Debug\be\Watch.Face.Common.pe
+C:\Users\stamp\Downloads\BigDigitsWatchface\BigDigitsWatchface\WatchFace.Common\obj\Debug\be\Watch.Face.Common.pdbx
+C:\Users\stamp\Downloads\BigDigitsWatchface\BigDigitsWatchface\WatchFace.Common\obj\Debug\le\Watch.Face.Common.pe
+C:\Users\stamp\Downloads\BigDigitsWatchface\BigDigitsWatchface\WatchFace.Common\obj\Debug\le\Watch.Face.Common.pdbx
+C:\Users\stamp\Downloads\BigDigitsWatchface\BigDigitsWatchface\WatchFace.Common\obj\Debug\Watch.Face.Common.dll
+C:\Users\stamp\Downloads\BigDigitsWatchface\BigDigitsWatchface\WatchFace.Common\obj\Debug\Watch.Face.Common.pdb
