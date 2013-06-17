@@ -48,7 +48,7 @@ namespace Watch.Face.Fuzzy.WatchFace
 
         private string GetTen(bool before)
         {
-            return before ? "ten to": "Ten after";
+            return before ? "ten to": "ten after";
         }
 
         private string GetHalfPast()
