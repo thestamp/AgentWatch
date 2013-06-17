@@ -19,7 +19,7 @@ namespace Watch.Face.Fuzzy.WatchFace
                     case 1:
                         return "a little before";
                     case 2:
-                        return "a pinch before";
+                        return "a bit before";
                     case 3:
                         return "almost";
                     default:
@@ -29,18 +29,14 @@ namespace Watch.Face.Fuzzy.WatchFace
             }
             else
             {
-                switch (new Random(DateTime.Now.Millisecond).Next(4))
+                switch (new Random(DateTime.Now.Millisecond).Next(2))
                 {
                     case 0:
-                        return "just past";
-                    case 1:
-                        return "a little past";
-                    case 2:
-                        return "a pinch past";
-                    case 3:
                         return "just after";
+                    case 1:
+                        return "a little after";
                     default:
-                        return "slipping past";
+                        return "a pinch after";
                 }
             }
         
@@ -105,6 +101,7 @@ namespace Watch.Face.Fuzzy.WatchFace
 
         private string[] GetFuzzyText(DateTime time)
         {
+            time = time.AddMinutes(17);
             var minuteStart = "";
             var minuteMiddle = "";
             var minuteEnd = "";
@@ -171,8 +168,8 @@ namespace Watch.Face.Fuzzy.WatchFace
 
             bitmap.DrawText(strings[0], minuteFont, Color.White, xOffset, 0 + yOffset);
             bitmap.DrawText(strings[1], minuteFont, Color.White, xOffset, 25 + yOffset);
-            bitmap.DrawText(strings[2], hourFont, Color.White, xOffset, 50 + yOffset);
-            bitmap.DrawText(strings[3], minuteFont, Color.White, xOffset, 82 + yOffset);
+            bitmap.DrawText(strings[2], hourFont, Color.White, xOffset, 47 + yOffset);
+            bitmap.DrawText(strings[3], minuteFont, Color.White, xOffset, 79 + yOffset);
 
  	        base.DrawWatchFace();
         }
