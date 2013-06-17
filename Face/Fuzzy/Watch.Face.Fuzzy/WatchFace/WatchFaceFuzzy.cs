@@ -101,7 +101,7 @@ namespace Watch.Face.Fuzzy.WatchFace
 
         private string[] GetFuzzyText(DateTime time)
         {
-            time = time.AddMinutes(17);
+
             var minuteStart = "";
             var minuteMiddle = "";
             var minuteEnd = "";
