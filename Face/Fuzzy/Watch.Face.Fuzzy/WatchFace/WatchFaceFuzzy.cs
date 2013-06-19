@@ -98,6 +98,11 @@ namespace Watch.Face.Fuzzy.WatchFace
           
         }
 
+        private string GetOClock(DateTime time)
+        {
+            return (time.Hour != 0 && time.Hour != 12) ? "o'clock" : "";
+        }
+
 
         private string[] GetFuzzyText(DateTime time)
         {
@@ -107,11 +112,11 @@ namespace Watch.Face.Fuzzy.WatchFace
             var minuteEnd = "";
 
             if (time.Minute < 4)
-                minuteEnd = "o'clock";
-            if (time.Minute < 9)
+                minuteEnd = GetOClock(time);
+            else if (time.Minute < 9)
             {
                 minuteMiddle = GetRandomSmall(false);
-                minuteEnd = "o'clock";
+                minuteEnd = GetOClock(time);
             }
             else if (time.Minute < 13)
                 minuteMiddle = GetTen(false);
@@ -131,6 +136,8 @@ namespace Watch.Face.Fuzzy.WatchFace
             }
             else
             {
+                time = time.AddHours(1);
+
                 if (time.Minute < 48)
                     minuteMiddle = "quarter to";
                 else if (time.Minute < 53)
@@ -138,12 +145,13 @@ namespace Watch.Face.Fuzzy.WatchFace
                 else if (time.Minute < 57)
                 {
                     minuteMiddle = GetRandomSmall(true);
-                    minuteEnd = "o'clock";
+                    minuteEnd = GetOClock(time);
                 }
                 else
-                    minuteEnd = "o'clock";
+                  minuteEnd = GetOClock(time);
+           
 
-                time = time.AddHours(1);
+                
             }
 
             string hour = GetHour(time);
@@ -160,7 +168,7 @@ namespace Watch.Face.Fuzzy.WatchFace
    
             var minuteFont = Resources.GetFont(Resources.FontResources.SegoeUi16);
             var hourFont = Resources.GetFont(Resources.FontResources.SegoeUi20);
-            var currentTime = DateTime.Now.ToLocalTime();
+            var currentTime = DateTime.Now;
             var strings = GetFuzzyText(currentTime);
 
             const int yOffset = 5;
