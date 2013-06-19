@@ -12,7 +12,7 @@ namespace Watch.Face.Fuzzy.WatchFace
            
             if (before)
             {
-                switch (new Random(DateTime.Now.Millisecond).Next(4))
+                switch (new Random(DateTime.Now.Millisecond).Next(5))
                 {
                     case 0:
                         return "just before";
